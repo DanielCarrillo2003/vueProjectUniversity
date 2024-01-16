@@ -1,32 +1,34 @@
 <template>
   <div>
-        <b-container>
-            <b-breadcrumb :items="items"></b-breadcrumb>
-        </b-container>
-        <h1>Renta de espacio</h1>
-    </div>
+    <b-container>
+      <b-breadcrumb :items="items"></b-breadcrumb>
+    </b-container>
+    <h1>Renta tu espacio</h1>
+    <b-link :to="{ name: 'tercero' }">
+      <b-button variant="primary" class="btn-inicio">
+        Información de espacio</b-button
+      >
+    </b-link>
+  </div>
 </template>
 
 <script>
 export default {
-    data() {
-      return {
-        items: [
+  data() {
+    return {
+      items: [
         {
-            text: 'Inicio',
-            to: { name: 'inicio' }
-
-          },
-          {
-            text: 'Renta',
-            active: true
-          }
-        ]
-      }
-    }
-  }
+          text: "Inicio",
+          to: { name: "inicio" },
+        },
+        {
+          text: "Renta de espacio",
+          active: true,
+        },
+      ],
+    };
+  },
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

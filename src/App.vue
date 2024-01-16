@@ -27,7 +27,7 @@ import Body from "./components/Body.vue";
 }
 
 .content {
-  margin-left: 200px;
+  margin-left: 260px;
   margin-top: 56px;
 }
 </style>

@@ -8,42 +8,20 @@
       bg-variant="dark"
       text-variant="light"
       no-header
-      width="200px"
+      width="250px"
       no-close-on-route-change="true"
-
     >
       <div class="px-3 py-2" id="sidebarContent">
         <div>
           <b-button-group vertical id="buttons">
             <b-button>
-              <b-link :to="{ name: 'inicio' }">Inicio
-              </b-link>
+              <b-link :to="{ name: 'inicio' }">Inicio </b-link>
             </b-button>
             <b-button>
-              <b-link :to="{ name: 'main' }">Renta</b-link>
+              <b-link :to="{ name: 'main' }">Renta tu espacio</b-link>
             </b-button>
             <b-button>
-              <b-link :to="{ name: 'tercero' }">Información</b-link>
-            </b-button>
-           <b-button>
-              <b-link :to="{ name: 'ofertar' }">Ofertar
-              </b-link>
-            </b-button>
-            <b-button>
-              <b-link :to="{ name: 'ofertar' }">Ofertar
-              </b-link>
-            </b-button>
-            <b-button>
-              <b-link :to="{ name: 'ofertar' }">Ofertar
-              </b-link>
-            </b-button>
-            <b-button>
-              <b-link :to="{ name: 'ofertar' }">Ofertar
-              </b-link>
-            </b-button>
-            <b-button>
-              <b-link :to="{ name: 'ofertar' }">Ofertar
-              </b-link>
+              <b-link :to="{ name: 'rentarEspacio' }">Rentar espacio</b-link>
             </b-button>
           </b-button-group>
         </div>
@@ -61,9 +39,9 @@
   width: 100%;
 }
 
-#buttons a{
+#buttons a {
   color: white;
   text-decoration: none;
-  padding: 5px 30px
+  padding: 5px 30px;
 }
 </style>
